@@ -5,7 +5,7 @@ A simple CRUD app for posting books with Django + ReactJS
 
 <img src="https://user-images.githubusercontent.com/38045464/112891534-a3198500-90ae-11eb-9361-60f6e193778f.png" />
 
- **Technologies used:**
+ **TECHNOLOGIES USED:**
 1. PostgreSQL for data storage
 2. Django for Backend
 3. DRF for making the API generic views for communication between Django and React
