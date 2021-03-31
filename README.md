@@ -27,6 +27,10 @@ A simple CRUD app for posting books with Django + ReactJS
 
 **INSTALLATION**
 
+<p>IMPORTANT! it is essential to configure the Browser to accept the origins of the requests. In the case of google chrome it is:</p>
+
+`google-chrome --disable-web-security --user-data-dir=~/chromeTemp FOR MULTIPLE ORIGIN`
+
 DATABASE:
 <p>First It's necessary to install PostgreSQL and PostgreSQL-Contrib for adding funcionalities to the db.</p>
 
@@ -104,9 +108,14 @@ FRONTEND:
 <p>Clone all the repository</p>
 <p>This React app needs just two dependecies for make It works:</p>
 
-google-chrome --disable-web-security --user-data-dir=~/chromeTemp FOR MULTIPLE ORIGIN
-
 `npm install --save axios react-router-dom`
 <p>The first one is for making the requests for the API and the second one is just a way to organize the React urls to make it more understandable.</p>
 
 *Remember the app uses Bootstrap and It's linked in the index.html, It should be noted that the JS link of boostrap is only for the carousel to work.*
+
+**TO ADD IN THE FUTURE**
+1. Apply Redux for state management.
+2. Implement Docker to the application.
+3. A more complete login system.
+4. Dynamic images that can be set by the user.
+5. Use summernotes to improve published texts.
