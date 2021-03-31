@@ -66,8 +66,7 @@ BACKEND:
 `python manage.py migrate`
 
 
-*Clarifications:*
-<p>On ./settings.py</p>
+*Clarifications:* On ./settings.py
 ```
 TEMPLATES = [
   {
