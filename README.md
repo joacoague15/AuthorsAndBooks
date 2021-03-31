@@ -104,6 +104,8 @@ FRONTEND:
 <p>Clone all the repository</p>
 <p>This React app needs just two dependecies for make It works:</p>
 
+google-chrome --disable-web-security --user-data-dir=~/chromeTemp FOR MULTIPLE ORIGIN
+
 `npm install --save axios react-router-dom`
 <p>The first one is for making the requests for the API and the second one is just a way to organize the React urls to make it more understandable.</p>
 
