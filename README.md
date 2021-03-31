@@ -60,8 +60,8 @@ BACKEND:
 `django-admin startproject [ProjectName]`
 <p>And create all the apps that this project needs:</p>
 
-`python manage.py startapp polls`
-<p>Install the dependecies with:</p>
+`python manage.py startapp [AppName]`
+<p>Install the dependecies that are needed. You can clone the requirements.txt file and then:</p>
 
 `pip install requirements.txt`
 <p>Make migrations, keep in mind that you have to migrate when there is a change in the models:</p>
