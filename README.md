@@ -82,6 +82,7 @@ TEMPLATES = [
 `MEDIA_URL = /media/` is for storing all images displayed, This app does not render any dinamic img, but It can be in the near future.
 
 <p>And</p>
+
 ```
 INSTALLED_APPS = [
     ...
