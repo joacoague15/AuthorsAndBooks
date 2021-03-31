@@ -25,6 +25,7 @@ A simple CRUD app for posting books with Django + ReactJS
 <p>It is advisable to keep in mind to use Postman for checking if the APIs are working: https://learning.postman.com/docs/getting-started/installation-and-updates/</p>
 <p>React consume the APIs and organize the components with the react-router-dom. The "slug" element from Django Model is essential for categorizing the genres.</p>
 <p>The login and signup does nothing more than post the new account and bring the token to save it in memory.</p>
+*It is important that there is always a featured book. This can only be set with a superuser in the admin part of Django.*
 
 **INSTALLATION**
 
