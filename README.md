@@ -67,7 +67,7 @@ BACKEND:
 
 
 *Clarifications:*
-On ./settings.py
+<p>On ./settings.py</p>
 ```
 TEMPLATES = [
   {
